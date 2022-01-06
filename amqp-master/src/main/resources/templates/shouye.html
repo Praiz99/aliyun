@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+                background:url(../static/1.jpg) top left;
+                background-size:100%;
+        }
+        #data{
+            width: 100px;
+            height: 30px;
+            background: greenyellow;
+        }
+        #de{
+            width: 100px;
+            height: 30px;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <button id="data" onclick="down()">查看数据</button>
+    <button id="de" onclick="up()">管理设备</button>
+    <script>
+        function down(){
+            window.location.href="data"
+        }
+        function up(){
+            window.location.href="query"
+        }
+    </script>
+</body>
+</html>

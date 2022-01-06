@@ -1,0 +1,19 @@
+{
+    "productKey": "gr6xZpppJHj",
+    "deviceName": "guangzhao",
+    "productSecret": "",
+    "deviceSecret": "6895d61e21dcb18885a61b6d7c02733d",
+    "registerType": "",
+    "subDevice": [
+      {
+          "productKey": "",
+          "productSecret": "",
+          "deviceName": ""
+      },
+      {
+          "productKey": "",
+          "productSecret": "",
+          "deviceName": ""
+      }
+    ]
+}
